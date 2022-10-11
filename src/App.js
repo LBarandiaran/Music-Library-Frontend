@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import DisplaySongs from './Components/DisplaySongs/DisplaySongs';
+import AddSong from './Components/AddSong/AddSong';
 
 function App() {
 
@@ -25,6 +26,7 @@ async function getAllSongs(){
   return (
     <div >
       <DisplaySongs songs={songs}/>
+      <AddSong getAllSongs={getAllSongs} />
     </div>
   );
 }
