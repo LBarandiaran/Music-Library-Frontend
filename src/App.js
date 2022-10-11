@@ -25,7 +25,7 @@ async function getAllSongs(){
 
   return (
     <div >
-      <DisplaySongs songs={songs}/>
+      <DisplaySongs songs={songs} getAllSongs={getAllSongs} />
       <AddSong getAllSongs={getAllSongs} />
     </div>
   );
