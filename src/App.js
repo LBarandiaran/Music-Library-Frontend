@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import DisplaySongs from './Components/DisplaySongs/DisplaySongs';
 import AddSong from './Components/AddSong/AddSong';
+import SearchBar from './Components/SearchBar/SearchBar';
 
 function App() {
 
