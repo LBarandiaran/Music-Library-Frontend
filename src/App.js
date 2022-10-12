@@ -26,6 +26,7 @@ async function getAllSongs(){
 
   return (
     <div >
+      <SearchBar songs={songs} setSongs={setSongs}/>
       <DisplaySongs songs={songs} getAllSongs={getAllSongs} />
       <AddSong getAllSongs={getAllSongs} />
     </div>
